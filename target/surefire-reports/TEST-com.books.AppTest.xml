@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.books.AppTest" time="0.033" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/var/home/fvinas/Documentos/Prueba_tecnica_Backend_ViveLibre v.3 (3)/Prueba_tecnica_Backend_ViveLibre v.3/books/target/test-classes:/var/home/fvinas/Documentos/Prueba_tecnica_Backend_ViveLibre v.3 (3)/Prueba_tecnica_Backend_ViveLibre v.3/books/target/classes:/home/fvinas/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/fvinas/.m2/repository/org/mongodb/mongodb-driver-sync/4.11.0/mongodb-driver-sync-4.11.0.jar:/home/fvinas/.m2/repository/org/mongodb/bson/4.11.0/bson-4.11.0.jar:/home/fvinas/.m2/repository/org/mongodb/mongodb-driver-core/4.11.0/mongodb-driver-core-4.11.0.jar:/home/fvinas/.m2/repository/org/mongodb/bson-record-codec/4.11.0/bson-record-codec-4.11.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="/var/home/linuxbrew/.linuxbrew/Cellar/openjdk/23.0.2/libexec/lib"/>
+    <property name="sun.java.command" value="/var/home/fvinas/Documentos/Prueba_tecnica_Backend_ViveLibre v.3 (3)/Prueba_tecnica_Backend_ViveLibre v.3/books/target/surefire/surefirebooter-20250227210055346_3.jar /var/home/fvinas/Documentos/Prueba_tecnica_Backend_ViveLibre v.3 (3)/Prueba_tecnica_Backend_ViveLibre v.3/books/target/surefire 2025-02-27T21-00-55_275-jvmRun1 surefire-20250227210055346_1tmp surefire_0-20250227210055346_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/var/home/fvinas/Documentos/Prueba_tecnica_Backend_ViveLibre v.3 (3)/Prueba_tecnica_Backend_ViveLibre v.3/books/target/test-classes:/var/home/fvinas/Documentos/Prueba_tecnica_Backend_ViveLibre v.3 (3)/Prueba_tecnica_Backend_ViveLibre v.3/books/target/classes:/home/fvinas/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/fvinas/.m2/repository/org/mongodb/mongodb-driver-sync/4.11.0/mongodb-driver-sync-4.11.0.jar:/home/fvinas/.m2/repository/org/mongodb/bson/4.11.0/bson-4.11.0.jar:/home/fvinas/.m2/repository/org/mongodb/mongodb-driver-core/4.11.0/mongodb-driver-core-4.11.0.jar:/home/fvinas/.m2/repository/org/mongodb/bson-record-codec/4.11.0/bson-record-codec-4.11.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/fvinas"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/var/home/linuxbrew/.linuxbrew/Cellar/openjdk/23.0.2/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/var/home/fvinas/Documentos/Prueba_tecnica_Backend_ViveLibre v.3 (3)/Prueba_tecnica_Backend_ViveLibre v.3/books"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/var/home/fvinas/Documentos/Prueba_tecnica_Backend_ViveLibre v.3 (3)/Prueba_tecnica_Backend_ViveLibre v.3/books/target/surefire/surefirebooter-20250227210055346_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="fvinas"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.12.12-207.bazzite.fc41.x86_64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/home/fvinas/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/var/home/fvinas/Documentos/Prueba_tecnica_Backend_ViveLibre v.3 (3)/Prueba_tecnica_Backend_ViveLibre v.3/books"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.books.AppTest" time="0.002"/>
+</testsuite>
