@@ -40,6 +40,7 @@ import org.bson.conversions.Bson;
  * I used MongoDB Compass as DB manager, but could be done with any DB manager of your choice.
 */
 public class App {
+    private static final String DELIMITER = ",";
     private static final int TOP_THREE = 3;
     private static final int ALL_ITERS = -1;
     private static final String TITLES_AUTHORS_CSV = "titlesAuthors.csv";
@@ -341,7 +342,7 @@ public class App {
                 "title", 
                 "author_name", 
                 "pages"
-            ).stream().collect(Collectors.joining(";"));
+            ).stream().collect(Collectors.joining(DELIMITER));
         writeOnFile(line);
     }
 
@@ -352,7 +353,7 @@ public class App {
                 (String) document.get("title"), 
                 (String) ((Document) document.get("author")).get("name"), 
                 ((Integer) document.get("pages")).toString()
-            ).stream().collect(Collectors.joining(";"));
+            ).stream().collect(Collectors.joining(DELIMITER));
         writeOnFile(line);
     }
 

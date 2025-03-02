@@ -1,9 +1,9 @@
-id;title;author_name;pages
-1;The Hunger Games;Suzanne;374
-2;Harry Potter and the Sorcerer's Stone;J.K. Rowling;309
-3;The Help;Kathryn;464
-4;To Kill a Mockingbird;Harper;336
-5;Harry Potter and the Deathly Hallows;J.K. Rowling;759
-6;The Kite Runner;Khaled;371
-7;The Stand;Stephen;1152
-8;Life of Pi;Yann;460
+id,title,author_name,pages
+1,The Hunger Games,Suzanne,374
+2,Harry Potter and the Sorcerer's Stone,J.K. Rowling,309
+3,The Help,Kathryn,464
+4,To Kill a Mockingbird,Harper,336
+5,Harry Potter and the Deathly Hallows,J.K. Rowling,759
+6,The Kite Runner,Khaled,371
+7,The Stand,Stephen,1152
+8,Life of Pi,Yann,460
