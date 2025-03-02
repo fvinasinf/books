@@ -331,6 +331,7 @@ public class App {
             Document document = documents.next();
             documentAsCSV(document);
         }
+        System.out.println(String.format("CSV generated at %s", TITLES_AUTHORS_CSV));
     }
 
     private static void writeCSVHeader() {
@@ -383,9 +384,10 @@ public class App {
         int read = 0;
         while (cursor.hasNext()) {
             results.add(cursor.next().toString());
-            if (howMany != ALL_ITERS && read < howMany) {
+            if (howMany != ALL_ITERS && read >= howMany - 1) {
                 break;
             }
+            read++;
         }
         System.out.println(
             String.format(
